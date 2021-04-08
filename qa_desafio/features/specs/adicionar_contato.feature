@@ -13,7 +13,7 @@ Dado que eu estou logado no Whatsapp
 
 @NotExisting
 Cenário: Adicionar um contato não existente na lista de contatos
-Quando  Quando adiciono um novo contato na lista de contatos
+Quando  adiciono um novo contato na lista de contatos
 E salvando o contato
 Então vejo que o contato foi adicionado
 
@@ -33,13 +33,13 @@ Então vejo o novo contato na minha lista de contatos
 @ExcludeContact
 Cenário: Excluir contato presente na lista
 Quando quero excluir de minha lista um contato
-E vou em remover contato
+E removo contato
 Então vejo que o contato removido da minha lista
 
 @BlockContact
 Cenário: Bloquear contato
 Quando desejo bloquear o contato
-E no contato seleciono o bloqueio
+E bloqueio um contato
 Então vejo que contato foi bloqueado na lista
 
 
